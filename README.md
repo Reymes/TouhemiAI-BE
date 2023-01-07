@@ -2,13 +2,13 @@
 
 ## Want to execute the application on Docker Compose ?
 
-1. Fork/Clone
+1. Make sure you have already installed both [Docker Engine](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/)
+
+2. Fork/Clone
 
     ```sh
     git clone https://github.com/Reymes/TouhemiAI-BE.git
     ```
-
-2. Make sure you have already installed both [Docker Engine](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/)
 
 3. Add your environmental variables (env.py) in the root directory of the project
 
