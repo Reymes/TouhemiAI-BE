@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+
+  api:
+    container_name: flask-api
+    build: .
+    command: flask run --host=0.0.0.0 --port=6010 --reload --debugger
+    restart: always
+    ports:
+      - "6010:6010"
+    env_file:
+      - .env
+    volumes:
+      - ./api:/app

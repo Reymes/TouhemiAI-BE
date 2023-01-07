@@ -1,0 +1,8 @@
+# WORKSPACE
+.venv
+.vscode
+.pytest_chache
+__pycache__
+
+# ENVIRONMENT
+.env
