@@ -4,16 +4,16 @@
 
 1. Make sure you have already installed both [Docker Engine](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/)
 
-2. Add your environmental variables (env.py)
+2. Add your environmental variables (env.py) in the root directory of the project
 
 3. Build and run the app with Compose:
 
     ```sh
-    $ docker-compose -f docker-compose.yml build 
+    $ docker-compose build
     ```
 
     ```sh
-    $ docker-compose -f docker-compose.yml up 
+    $ docker-compose up
     ```
 
 ## Want to execute the application on your local machine ?
